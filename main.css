@@ -40,8 +40,8 @@
         }
         .signin {
 	    position: absolute;
-	    top: 750px;
-  	    right: 400px; /* 이제 왼쪽으로 20px 떨어진 위치에 있습니다. */
+	    top: 600px;
+  	    right: 300px; /* 이제 왼쪽으로 20px 떨어진 위치에 있습니다. */
 	}
 
 button {

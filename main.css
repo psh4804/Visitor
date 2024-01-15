@@ -1,6 +1,4 @@
 @charset "utf-8";
-
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap');
 @media only screen 
 and (min-device-width: 1668px) 
 and (max-device-width: 2388px) 
@@ -28,11 +26,10 @@ and (orientation: landscape) {
 @media only screen 
 and (min-device-width: 1668px) 
 and (max-device-width: 2388px) 
-and (orientation: portrait
-) {
+and (orientation: portrait) {
 h1 {
-font-size: 60px; /* Adjust font size for portrait /
-margin-top: 150px; / Adjust top margin /
+     font-size: 60px; /* Adjust font size for portrait */
+     margin-top: 150px; /* Adjust top marg in */    
 }
 .logo {
 width: 200px; / Adjust logo size /
@@ -59,6 +56,7 @@ font-size: 30px; / Adjust button font size /
 
         }
 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap');
 
         .background {
             background-image: url('https://i.pinimg.com/736x/33/f3/83/33f383c3406f064dba07ebebed9fa1d7.jpg'); /* 배경 이미지 경로로 변경 */

@@ -6,32 +6,50 @@
     <title>Welcome Screen</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap');
-
-/* iPad의 세로 모드 */
 @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) {
-    .signin {
-        top: 600px; /* iPad 세로 모드에 적합한 위치로 조정 */
-        right: 100px; /* 필요에 따라 조정 */
-        /* 기타 필요한 스타일 변경 */
+and (min-device-width: 1668px) 
+and (max-device-width: 2388px) 
+and (orientation: landscape) {
+    h1 {
+        font-size: 80px; /* Adjust font size for landscape */
+        margin-top: 100px; /* Adjust top margin */
     }
+    .logo {
+        width: 250px; /* Adjust logo size */
+        top: 10px;
+        right: 20px;
+    }
+    .signin {
+        top: 500px; /* Adjust button position */
+        right: 300px;
+	font-family: 'EB Garamond', serif;
+        font-size: 40px; /* Adjust button font size */
+    }
+    /* Other landscape-specific styles */
 }
 
-/* iPad의 가로 모드 */
+/* iPad Pro 2388x1668 - Portrait */
+
 @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) {
-    .signin {
-        top: 400px; /* iPad 가로 모드에 적합한 위치로 조정 */
-        right: 200px; /* 필요에 따라 조정 */
-        /* 기타 필요한 스타일 변경 */
-    }
+and (min-device-width: 1668px) 
+and (max-device-width: 2388px) 
+and (orientation: portrait
+) {
+h1 {
+font-size: 60px; /* Adjust font size for portrait /
+margin-top: 150px; / Adjust top margin /
 }
-
-
+.logo {
+width: 200px; / Adjust logo size /
+top: 20px;
+right: 30px;
+}
+.signin {
+top: 700px; / Adjust button position /
+right: 200px;
+font-family: 'EB Garamond', serif;
+font-size: 30px; / Adjust button font size /
+}
         body, html {
             height: 100%;
             margin: 0;
@@ -45,6 +63,8 @@
 	}
 
         }
+
+
         .background {
             background-image: url('https://i.pinimg.com/736x/33/f3/83/33f383c3406f064dba07ebebed9fa1d7.jpg'); /* 배경 이미지 경로로 변경 */
     	background-size: cover;

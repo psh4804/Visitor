@@ -3,23 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visitor Information Form</title>
+    <title>Welcome Screen</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .background {
+            background-image: url('https://i.pinimg.com/736x/33/f3/83/33f383c3406f064dba07ebebed9fa1d7.jpg'); /* 배경 이미지 경로로 변경 */
+    	background-size: cover;
+	background-position: center;
+    	width: 50%; /* 배경이 좌측 반을 차지하도록 설정 */
+    	height: 100%;
+    	position: absolute; /* 절대 위치를 사용하여 왼쪽에 고정 */
+    	left: 0; /* 왼쪽에서 시작 */
+        }
+        .container {
+            width: 50%;
+            height: 100%;
+            float: right;
+            text-align: center;
+            padding-top: 1%;
+            box-sizing: border-box;
+        }
+        .logo {
+            width: 400px; /* Adjust as necessary */
+            position: absolute;
+            top: -20px
+            right: 0px
+        }
+        .signin {
+            font-size: 30px; /* 폰트 크기를 원하는 값으로 변경하세요 */
+            display: inline-block;
+            margin-top: 500px;
+            padding: 50px 100px;
+            border: 2px solid black; /* Adjust border color as necessary */
+            cursor: pointer;
+            position: absolute;
+            top: 400px
+            right: 0px
+        }
+        .signin:hover {
+            background-color: #e0e0e0; /* Light grey background on hover */
+        }
+       </style>
+
 </head>
 <body>
-    <h1>Visitor Information</h1>
-    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfl9qgFfFc0b4yVHIsIeLCQ87jGclfcsa51cgjfrqhQb61oKg/formResponse" target="_self" method="post">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="entry.1686418904" required><br>
+    <div class="background">
+    </div>
+    <div class="container">
+        <img src="https://busanforeignschool.org/wp-content/uploads/2016/09/logo1.png" alt="Logo" class="logo"> <!-- Update path_to_your_logo.png -->
+        <h1>Welcome</h1>
+        <div class="signin">
+   		 <a href="visitor information.html" style="color: inherit; text-decoration: none;">Sign in</a>
+    </div>
 
-        <label for="purpose">Purpose of Visit:</label><br>
-        <input type="text" id="purpose" name="entry.353640460" required><br>
-
-        <label for="phone">Phone Number:</label><br>
-        <input type="tel" id="phone" name="entry.2087481657" required><br>
-
-        <label for="email">Email:</label><br>
- 	<input type="email" id="email" name="entry.707705995" required><br>
-	<input type="submit" value="Submit">
-	</form>
 </body>
 </html>

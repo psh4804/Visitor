@@ -10,11 +10,10 @@
 
         }
 
-
         .background {
     	background-size: cover;
 	background-position: center;
-    	width: 50%; /* 배경이 좌측 반을 차지하도록 설정 */
+    	width: 40%; /* 배경이 좌측 반을 차지하도록 설정 */
     	height: 100%;
     	position: absolute; /* 절대 위치를 사용하여 왼쪽에 고정 */
     	left: 0; /* 왼쪽에서 시작 */
@@ -41,7 +40,7 @@
         .signin {
 	    position: absolute;
 	    top: 600px;
-  	    right: 300px; /* 이제 왼쪽으로 20px 떨어진 위치에 있습니다. */
+  	    right: 200px; /* 이제 왼쪽으로 20px 떨어진 위치에 있습니다. */
 	}
 
 button {

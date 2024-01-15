@@ -1,5 +1,12 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap');
+	
+	h1 {
+    		font-family: 'EB Garamond', serif; /* 폰트 종류 변경 */
+    		font-size: 100px; /* 폰트 크기 변경 */
+    		color: #1A3C6A; /* 폰트 색상 변경 (옵션) */
+    	/* 추가적인 스타일링이 필요한 경우 여기에 작성 */
+	}
 
         .background {
             background-image: url('https://i.pinimg.com/736x/33/f3/83/33f383c3406f064dba07ebebed9fa1d7.jpg'); /* 배경 이미지 경로로 변경 */
